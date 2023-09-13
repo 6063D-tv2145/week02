@@ -1,18 +1,18 @@
+
 function setup() {
     createCanvas(1080, 1000);
-    background(204,204,255);    
+    background(204,255,229);    
 }
 
 function draw() {
+    fill("pink")
     strokeWeight(0)
-    fill(0,0,255)
-    ellipse(300, 100, 100, 100)
-    fill(255,255,204)
-    ellipse(400, 500, 100, 100)
-    strokeWeight(4)
-    stroke(255,204,229)
-    ellipse(350, 300, 100, 100)
-    ellipse(100, 400, 100, 100)
-    ellipse(700, 200, 100, 100)
-    rect(300, 100, 50, 50)
+    ellipse(200, 300, 300, 300)
+    ellipse(450, 300, 300, 300)
+    rotate(PI / 4.0)
+    rect(380, -82, 300, 300)
+    fill("beige")
+    strokeWeight(0)
+    square(450, 30, 55, 20, 15, 10, 5);
+
 }
